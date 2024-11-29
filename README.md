@@ -4,6 +4,7 @@ Traffic Sign Detection and Identification | using YOLOv8 and GTSRB
 This project is aimed at making a fast and accurate system to identify traffic signs which can aid in driving autonomous vehicles. 
 Although I used yolov8n.pt the model is very accurate.
 
+I used Google Colab NVIDIA Tesla T4 GPU for most of the project. (Visual Studio Code used only to convert .csv to .txt)
 
 **Source code**
 
