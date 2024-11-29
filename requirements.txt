@@ -1,0 +1,17 @@
+# Essential Libraries
+ultralytics==8.3.39  # YOLOv8 package for training and inference
+torch>=2.0.0         # PyTorch, required for YOLOv8
+torchvision>=0.15.0  # Torchvision for image processing
+numpy>=1.21.0        # Numpy for numerical computations
+opencv-python>=4.5.5 # OpenCV for image preprocessing
+pandas>=1.3.0        # Pandas for data manipulation
+
+# Data Visualization
+matplotlib>=3.4.3    # Matplotlib for plotting loss/mAP curves
+seaborn>=0.11.0      # Seaborn for enhanced plots (optional)
+
+# Data Augmentation
+albumentations>=1.4.0 # For advanced image augmentations
+
+# File Handling
+tqdm>=4.62.0         # Progress bars for loops
