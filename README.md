@@ -31,11 +31,17 @@ mAP curve:
 **Installation and Use**
 
 Step 1: Clone the repository
+
 Step 2: Install the dependencies (found in the requirements.txt)
+
 Step 3: Download the GTSRB dataset
+
 Step 4: preprocess it by running convert_to_yolo.py
+
 Step 5: Train the model by using the train_yolo.py
+
 Step 6: Test the model with sample images from the test part of the dataset
+
 predicted results will be stored in the runs/detect directory
 
 **References and Documents**
