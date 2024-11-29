@@ -3,31 +3,31 @@ Traffic Sign Detection and Identification | using YOLOv8 and GTSRB
 **Project Results and Overview**
 This project is aimed at making a fast and accurate system to identify traffic signs which can aid in driving autonomous vehicles. 
 Although I used yolov8n.pt the model is very accurate.
+
+
 **Source code**
-TrafficSignProject
-├── data.yaml: Configuration file for the dataset.
-├── train_yolo.py: Script to train the YOLOv8 model.
-├── convert_to_yolo.py: Script to preprocess and convert labels to YOLO format.
-├── results/: Contains visualizations of predictions and performance metrics.
-└── requirements.txt: Lists Python dependencies for the project.
+
+TrafficSignProject:
+1) data.yaml: Configuration file for the dataset.
+2) train_yolo.py: Script to train the YOLOv8 model.
+3) convert_to_yolo.py: Script to preprocess and convert labels to YOLO format.
+4) results/: Contains visualizations of predictions and performance metrics.
+5) requirements.txt: Lists Python dependencies for the project.
+   
 **Performance Metrics**
- Epoch  Train Box Loss  Val Box Loss  mAP@0.5
-0      1         0.66880       0.56895  0.84616
-1      2         0.54147       0.49082  0.92096
-2      3         0.51331       0.46259  0.92149
-3      4         0.49394       0.45556  0.94810
-4      5         0.47107       0.42345  0.94258
-5      6         0.45567       0.41098  0.95043
-6      7         0.44194       0.38251  0.95595
-7      8         0.42959       0.38942  0.96043
-8      9         0.41795       0.37046  0.95465
-9     10         0.40798       0.37023  0.96174
+
+![image](https://github.com/user-attachments/assets/63da220e-e539-4cfd-9e6a-3dfc280d92b2)
+
+   
 **Visualization of results**
+
 Loss curve:
 ![image](https://github.com/user-attachments/assets/06d96ae1-f4e8-4eb8-97e5-231ecc7b9eec)
 mAP curve:
 ![image](https://github.com/user-attachments/assets/03631435-3498-4db3-afeb-ae23b029ad1e)
+
 **Installation and Use**
+
 Step 1: Clone the repository
 Step 2: Install the dependencies (found in the requirements.txt)
 Step 3: Download the GTSRB dataset
@@ -35,17 +35,29 @@ Step 4: preprocess it by running convert_to_yolo.py
 Step 5: Train the model by using the train_yolo.py
 Step 6: Test the model with sample images from the test part of the dataset
 predicted results will be stored in the runs/detect directory
+
 **References and Documents**
+
 1) https://arxiv.org/pdf/1506.02640 : You Only Look Once: Unified, Real-Time Object Detection by Joseph Redmon, Santosh Divvala, Ross Girshick, Ali Farhadi
 2) https://docs.ultralytics.com/ : Ultralytics official documentation for step to step implementation
 3) GTSRB dataset : https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign
+   
 **Issues and Contributions**
+
 Since there are only 43 classes for the signs the identification is limited to that.
+
 Under various conditions, like blurriness or bad lighting the performance of this model could reduce.
+
 (To contribute, submit bug report or enhancements through issues tab)
+
 **Future Work**
+
 Improve the model by training it on a more diverse dataset (images under more environmental conditions).
+
 Create more comprehensive classes.
+
+
+
 
 
 
