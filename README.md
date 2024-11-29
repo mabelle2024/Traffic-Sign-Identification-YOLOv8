@@ -13,6 +13,7 @@ TrafficSignProject: (Used google colab for everything except convert_to_yolo.py)
 2) train_yolo.py: Script to train the YOLOv8 model.
 3) convert_to_yolo.py: Script to preprocess and convert labels to YOLO format.
 4) requirements.txt: Lists Python dependencies for the project.
+5) test_project.py: Script to test the model with 1 sample test image
    
 **Performance Metrics**
 
