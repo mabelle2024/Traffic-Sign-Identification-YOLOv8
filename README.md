@@ -12,8 +12,7 @@ TrafficSignProject: (Used google colab for everything except convert_to_yolo.py)
 1) data.yaml: Configuration file for the dataset.
 2) train_yolo.py: Script to train the YOLOv8 model.
 3) convert_to_yolo.py: Script to preprocess and convert labels to YOLO format.
-4) results/: Contains visualizations of predictions and performance metrics.
-5) requirements.txt: Lists Python dependencies for the project.
+4) requirements.txt: Lists Python dependencies for the project.
    
 **Performance Metrics**
 
