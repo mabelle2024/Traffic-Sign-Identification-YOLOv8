@@ -44,6 +44,10 @@ predicted results will be stored in the runs/detect directory
    
 **Issues and Contributions**
 
+I had issues making sure the labels matched the images, you will find a spare csv file in your test images (if you downlaod dataset from the given link). I had to remove that before hand. 
+
+Also there was the issue of the train images being in seperate 43 subfolders so i needed to join them into a new folder, flattening the unneccesary folder structure.
+
 Since there are only 43 classes for the signs the identification is limited to that.
 
 Under various conditions, like blurriness or bad lighting the performance of this model could reduce.
