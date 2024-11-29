@@ -8,7 +8,7 @@ I used Google Colab NVIDIA Tesla T4 GPU for most of the project. (Visual Studio 
 
 **Source code**
 
-TrafficSignProject:
+TrafficSignProject: (Used google colab for everything except convert_to_yolo.py)
 1) data.yaml: Configuration file for the dataset.
 2) train_yolo.py: Script to train the YOLOv8 model.
 3) convert_to_yolo.py: Script to preprocess and convert labels to YOLO format.
