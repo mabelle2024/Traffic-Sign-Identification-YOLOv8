@@ -1,0 +1,4 @@
+train: /content/TrafficSignProject/images/train_flat #replace this with whatver your path is
+val: /content/TrafficSignProject/images/Test #replace this with whatever your path is
+nc: 43  
+names: ['class0', 'class1', 'class2', 'class3','class4', 'class5', 'class6', 'class7', 'class8', 'class9', 'class10', 'class11', 'class12', 'class13', 'class14', 'class15', 'class16', 'class17', 'class18', 'class19', 'class20', 'class21', 'class22', 'class23', 'class24', 'class25', 'class26', 'class27', 'class28', 'class29', 'class30', 'class31', 'class32', 'class33', 'class34', 'class35', 'class36', 'class37', 'class38', 'class39', 'class40', 'class41'  ,'class42']  
